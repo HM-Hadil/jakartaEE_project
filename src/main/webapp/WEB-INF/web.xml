@@ -19,4 +19,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ServletRegistration</display-name>
+    <servlet-name>ServletRegistration</servlet-name>
+    <servlet-class>servlets.ServletRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ServletRegistration</servlet-name>
+    <url-pattern>/jakarta-tp2/ServletRegistration</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SuccessRegistration</display-name>
+    <servlet-name>SuccessRegistration</servlet-name>
+    <servlet-class>servlets.SuccessRegistration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SuccessRegistration</servlet-name>
+    <url-pattern>/SuccessRegistration</url-pattern>
+  </servlet-mapping>
 </web-app>
